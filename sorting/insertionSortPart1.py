@@ -10,13 +10,13 @@ def insertionSort(ar):
             ar[i+1] = tem
             break
         for item in ar:
-            print(item, end=' ')
+            print (item, end=' ')
         print()
         if i==0:
             ar[i]=tem
         i-=1
     for item in ar:
-        print(item, end=' ')
+        print (item, end=' ')
     return
 
 # m = input()
