@@ -8,5 +8,4 @@ def insertion_sort(l):
            shift+=1
            j -= 1
         l[j+1] = key
-
     return shift
